@@ -21,13 +21,11 @@ const InitApp = () => {
         measurementId: process.env.REACT_APP_MEASUREMENTID,
     }
 
-    console.log(firebaseConfig)
-
     try {
         firebase.initializeApp(firebaseConfig)
         firebase.firestore().enablePersistence()
     } catch (error) {
-        console.log('No se pudo conectar ¿Hay internet?')
+        alert('No se pudo conectar ¿Hay internet?')
     }
 }
 

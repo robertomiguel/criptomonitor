@@ -40,8 +40,6 @@ const FireUserStore = () => {
                     await db.collection('session').doc(uid).get()
                 ).data()
 
-                console.log('sess ', session)
-
                 if (session && session.isConnected) {
                     firebase.auth().signOut()
                     alert(
@@ -81,7 +79,6 @@ const FireUserStore = () => {
                 this.useApp = true
             } catch (error) {
                 if (error.code) pdaMessage(error.code, error.message, 'error')
-                console.log('error: ', error)
             }
         },
         async login(credentials) {
@@ -139,7 +136,6 @@ const FireUserStore = () => {
                 window.location.reload()
             } catch (error) {
                 if (error.code) pdaMessage(error.code, error.message, 'error')
-                console.log('error: ', error)
             }
             return true
         },

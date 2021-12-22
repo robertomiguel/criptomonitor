@@ -32,8 +32,6 @@ const SettingStore = () =>
         async init() {
             if (!this.isInit) {
                 try {
-                    console.log('CARGA DE SETTINGS')
-
                     const db = firebase.firestore()
                     const uid = firebase.auth().currentUser.uid
 
@@ -58,10 +56,7 @@ const SettingStore = () =>
         showError(error) {
             if (error.code) {
                 pdaMessage(error.code, error.message, 'error')
-                console.log('ERROR CODE: ', error.code)
-                console.log('ERROR MSG: ', error.message)
             }
-            console.log('error ', error)
         },
         getSetting(key) {
             return this.settings[key]
@@ -70,7 +65,6 @@ const SettingStore = () =>
             return this.settings
         },
         setSetting(setting) {
-            // console.log("llega: ", toJS(symbol));
             Object.assign(this.settings, setting)
         },
         setTheme(themeName) {
@@ -121,7 +115,6 @@ const SettingStore = () =>
                     return false
                 }
             } else {
-                console.log('ERROR UPD lista de monedas')
                 return false
             }
         },

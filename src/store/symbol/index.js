@@ -31,45 +31,21 @@ const SymbolStore = () =>
                 const db = firebase.firestore()
                 const uid = firebase.auth().currentUser.uid
                 this.userData = db.collection(uid)
-                console.log(
-                    'CARGA STOREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE'
-                )
-
                 this.getList(1)
                 this.getList(2)
                 this.getList(3)
-
-                /* db.collection(uid)
-                    .doc('panel1')
-                    .onSnapshot((doc) => {
-                        this.listPanel1 = doc.data().panel1
-                    })
-                db.collection(uid)
-                    .doc('panel2')
-                    .onSnapshot((doc) => {
-                        this.listPanel2 = doc.data().panel2
-                    })
-                db.collection(uid)
-                    .doc('panel3')
-                    .onSnapshot((doc) => {
-                        this.listPanel3 = doc.data().panel3
-                    }) */
             }
         },
         showError(error) {
             if (error.code) {
                 pdaMessage(error.code, error.message, 'error')
-                console.log('ERROR CODE: ', error.code)
-                console.log('ERROR MSG: ', error.message)
             }
-            console.log('error ', error)
         },
         async getList(panelNumber) {
             switch (panelNumber) {
                 case 1:
                     if (!this.isPanel1Ready) {
                         try {
-                            // console.log('PIDE LISTA "1"')
                             const db = firebase.firestore()
                             const uid = firebase.auth().currentUser.uid
                             this.listPanel1 = (
@@ -86,7 +62,6 @@ const SymbolStore = () =>
                 case 2:
                     if (!this.isPanel2Ready) {
                         try {
-                            // console.log('PIDE LISTA "2"')
                             const db = firebase.firestore()
                             const uid = firebase.auth().currentUser.uid
                             const list2 = await db
@@ -105,7 +80,6 @@ const SymbolStore = () =>
                 case 3:
                     if (!this.isPanel3Ready) {
                         try {
-                            // console.log('PIDE LISTA "3"')
                             const db = firebase.firestore()
                             const uid = firebase.auth().currentUser.uid
                             const list3 = await db
@@ -191,8 +165,6 @@ const SymbolStore = () =>
                 default:
                     return []
             }
-
-            // console.log("llega: ", toJS(symbol));
         },
         async delete(id, panelNumber) {
             let newList = []

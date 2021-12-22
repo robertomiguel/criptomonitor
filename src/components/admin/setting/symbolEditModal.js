@@ -27,7 +27,6 @@ export const SymbolEditModal = observer((props) => {
                 abortEarly: false,
                 stripUnknown: true,
             })
-            console.log('valid ok')
             settingStore.setNewSymbol()
             cancelButton()
         } catch (validationError) {
