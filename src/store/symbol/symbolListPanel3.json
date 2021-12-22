@@ -1,0 +1,9 @@
+[
+  {
+    "interval": "4h",
+    "isVisible": true,
+    "chartType": "clock",
+    "name": "BTCUSDT",
+    "id": "MC43MjczMzA2NDMyNjkxOD"
+  }
+]

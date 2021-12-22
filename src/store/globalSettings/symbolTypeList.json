@@ -1,0 +1,66 @@
+[
+    {
+        "code": "BINANCE:BTCUSDT",
+        "name": "BTCUSDT"
+    },
+    {
+        "code": "BINANCE:ETHUSDT",
+        "name": "ETHUSDT"
+    },
+    {
+        "code": "BINANCE:BNBUSDT",
+        "name": "BNBUSDT"
+    },
+    {
+        "code": "BINANCE:XRPUSDT",
+        "name": "XRPUSDT"
+    },
+    {
+        "code": "BINANCE:ADAUSDT",
+        "name": "ADAUSDT"
+    },
+    {
+        "code": "BINANCE:DOTUSDT",
+        "name": "DOTUSDT"
+    },
+    {
+        "code": "BINANCE:UNIUSDT",
+        "name": "UNIUSDT"
+    },
+    {
+        "code": "BINANCE:LTCUSDT",
+        "name": "LTCUSDT"
+    },
+    {
+        "code": "BINANCE:LINKUSDT",
+        "name": "LINKUSD"
+    },
+    {
+        "code": "BINANCE:XLMUSDT",
+        "name": "XLMUSDT"
+    },
+    {
+        "code": "BINANCE:THETAUSDT",
+        "name": "THETAUS"
+    },
+    {
+        "code": "BINANCE:FILUSDT",
+        "name": "FILUSDT"
+    },
+    {
+        "code": "BINANCE:ETCUSDT",
+        "name": "ETCUSDT"
+    },
+    {
+        "code": "BINANCE:AVAXUSDT",
+        "name": "AVAXUSD"
+    },
+    {
+        "code": "BINANCE:BCHUSDT",
+        "name": "BCHUSDT"
+    },
+    {
+        "code": "BINANCE:IOTAUSDT",
+        "name": "IOTAUSD"
+    }
+]

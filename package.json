@@ -1,0 +1,72 @@
+{
+    "name": "crypton",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@craco/craco": "^6.1.2",
+        "@testing-library/jest-dom": "^5.12.0",
+        "@testing-library/react": "^11.2.7",
+        "@testing-library/user-event": "^12.8.3",
+        "antd": "^4.16.2",
+        "axios": "^0.21.1",
+        "craco-antd": "^1.19.0",
+        "firebase": "^8.6.3",
+        "less": "^2.7.3",
+        "mobx": "^6.3.2",
+        "mobx-react-lite": "^3.2.0",
+        "moment": "^2.29.1",
+        "react": "^17.0.2",
+        "react-cookie": "^4.0.3",
+        "react-dom": "^17.0.2",
+        "react-highlight-words": "^0.17.0",
+        "react-hotkeys-hook": "^3.3.2",
+        "react-icons": "^4.2.0",
+        "react-scripts": "4.0.3",
+        "react-tradingview-components": "^2.0.1",
+        "react-tradingview-technical-analysis": "^1.0.2",
+        "react-tradingview-widget": "^1.3.2",
+        "react-use": "^17.2.4",
+        "styled-components": "^5.3.0",
+        "svelte-tradingview-widget": "^2.3.0",
+        "timm": "^1.7.1",
+        "web-vitals": "^1.1.2",
+        "yup": "^0.32.9"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "craco eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@ant-design/compatible": "^1.0.8",
+        "@ant-design/icons": "^4.6.2",
+        "@babel/cli": "^7.14.5",
+        "@babel/core": "^7.14.5",
+        "less-loader": "^5.0.0",
+        "eslint": "^7.28.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-plugin-import": "^2.23.4",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-react-hooks": "^4.2.0"
+    }
+}

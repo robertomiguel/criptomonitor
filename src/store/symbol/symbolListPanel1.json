@@ -1,0 +1,177 @@
+[
+  {
+      "interval": "4h",
+      "isVisible": true,
+      "chartType": "clock",
+      "name": "BTCUSDT",
+      "id": "MC43MjczMzA2NDMyNjkxOD"
+  },
+  {
+      "interval": "4h",
+      "isVisible": true,
+      "id": "MC43NjAxOTY0OTE2Njk3Mj",
+      "name": "ETHUSDT",
+      "chartType": "clock"
+  },
+  {
+      "interval": "4h",
+      "chartType": "clock",
+      "id": "MC43OTU1NDE4MDI3MjI2OD",
+      "isVisible": true,
+      "name": "USDTTHB"
+  },
+  {
+      "chartType": "clock",
+      "interval": "4h",
+      "name": "BNBUSDT",
+      "isVisible": true,
+      "id": "MC45MzAxMjg2NzU3MTExNj"
+  },
+  {
+      "name": "ADAUSDT",
+      "isVisible": true,
+      "id": "MC45OTcxNjM2MDA2MDI3MT",
+      "interval": "4h",
+      "chartType": "clock"
+  },
+  {
+      "interval": "4h",
+      "name": "DOGEUSDT",
+      "chartType": "clock",
+      "id": "MC42MDAyMzE1MTYwMDIyMD",
+      "isVisible": true
+  },
+  {
+      "name": "XRPUSD",
+      "isVisible": true,
+      "id": "MC40NTY0NzQ2NjIzNDQ4Nz",
+      "chartType": "clock",
+      "interval": "4h"
+  },
+  {
+      "chartType": "clock",
+      "name": "USDCUSDT",
+      "isVisible": true,
+      "interval": "4h",
+      "id": "MC41Njg0OTU4MDgzOTIyOT"
+  },
+  {
+      "chartType": "clock",
+      "id": "MC40MjQ4Njc4ODk4ODg0ND",
+      "name": "DOTUSD",
+      "isVisible": true,
+      "interval": "4h"
+  },
+  {
+      "chartType": "clock",
+      "id": "MC45NDY0MzU4OTg1OTM3NT",
+      "name": "BCHBTC",
+      "isVisible": true,
+      "interval": "4h"
+  },
+  {
+      "name": "UNIUSD",
+      "chartType": "clock",
+      "id": "MC40NDIxNzA4NTE5MTA4Mj",
+      "isVisible": true,
+      "interval": "4h"
+  },
+  {
+      "id": "MC42OTE1NTUzMzAyMzY5ND",
+      "chartType": "clock",
+      "name": "LTCUSDT",
+      "interval": "4h",
+      "isVisible": true
+  },
+  {
+      "name": "SOLUSDT",
+      "id": "MC45NDE3NTQwNzc2NTU2Mj",
+      "chartType": "clock",
+      "isVisible": true,
+      "interval": "4h"
+  },
+  {
+      "isVisible": true,
+      "id": "MC4xNjQyNzQxNDc2ODg4Mz",
+      "chartType": "clock",
+      "name": "BNBUSDT",
+      "interval": "4h"
+  },
+  {
+      "isVisible": true,
+      "id": "MC4xNjcxMDE0NjQ5OTk0OT",
+      "chartType": "clock",
+      "name": "LINKUSDT",
+      "interval": "4h"
+  },
+  {
+      "isVisible": true,
+      "interval": "4h",
+      "chartType": "clock",
+      "name": "THETAUSDT",
+      "id": "MC4xNzI5NTM1MzE5OTEzNT"
+  },
+  {
+      "chartType": "clock",
+      "interval": "4h",
+      "isVisible": true,
+      "name": "MATICUSDT",
+      "id": "MC40MDQ1OTIwNTU4Mjg2Mj"
+  },
+  {
+      "id": "MC4wMzkwNjUxMjQ3MjcxNT",
+      "isVisible": true,
+      "chartType": "clock",
+      "interval": "4h",
+      "name": "WBTCUSDT"
+  },
+  {
+      "name": "XLMUSDT",
+      "chartType": "clock",
+      "interval": "4h",
+      "isVisible": true,
+      "id": "MC44NTcwODgxNDg1MjA2OT"
+  },
+  {
+      "chartType": "clock",
+      "interval": "4h",
+      "name": "ETCUSDT",
+      "id": "MC4yMTI1MjM0Mzg0MDU1Mz",
+      "isVisible": true
+  },
+  {
+      "name": "ICPUSDT",
+      "id": "MC44NzUzNTAwOTI4MjQzOD",
+      "isVisible": true,
+      "interval": "4h",
+      "chartType": "clock"
+  },
+  {
+      "id": "MC44OTM2NTY1OTQyMDU5OD",
+      "interval": "4h",
+      "isVisible": true,
+      "chartType": "clock",
+      "name": "VETUSDT"
+  },
+  {
+      "id": "MC45NjE0MzA5MTQxNTU2OT",
+      "isVisible": true,
+      "chartType": "clock",
+      "interval": "4h",
+      "name": "FILUSDT"
+  },
+  {
+      "id": "MC44MzYyNTA4MjExODM5NT",
+      "name": "XMRUSDT",
+      "interval": "4h",
+      "chartType": "clock",
+      "isVisible": true
+  },
+  {
+      "name": "TRXUSDT",
+      "chartType": "clock",
+      "id": "MC43MTEzNTUzMjIzMjM2OT",
+      "isVisible": true,
+      "interval": "4h"
+  }
+]
